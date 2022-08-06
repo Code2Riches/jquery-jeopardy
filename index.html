@@ -1,70 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 
-    <!-- Bootstrap CSS and JS -->
-     <link href=“https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css” rel=“stylesheet” integrity=“sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6” crossorigin=“anonymous”>
-   
-    <!-- <script src=“https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js” integrity=“sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf” crossorigin=“anonymous”></script> -->
-
     <!-- Jeopardy Font (Gyparody) -->
-    <link rel="stylesheet" href="https://use.typekit.net/kwy1jem.css">
+    <link rel="stylesheet" href="https://use.typekit.net/kwy1jem.css" />
 
     <!-- Link styles.css -->
-    <link rel="stylesheet" href="styles.css">
-
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <h1 id="header">JEOPARTY!</h1>
-    <h3 id="score">YOUR SCORE =</h3> 
+    <h3 id="score">YOUR SCORE =</h3>
 
     <div id="jeopardy">
-        <button id="cat1" class="btn cat btn-outline-primary">Category</button>
-        <button id="cat2" class="btn cat btn-outline-primary">Category</button>
-        <button id="cat3" class="btn cat btn-outline-primary">Category</button>
-        <button id="cat4" class="btn cat btn-outline-primary">Category</button>
-        <button id="cat5" class="btn cat btn-outline-primary">Category</button>
+      <button id="cat1" class="btn cat">Category</button>
+      <button id="cat2" class="btn cat">Category</button>
+      <button id="cat3" class="btn cat">Category</button>
+      <button id="cat4" class="btn cat">Category</button>
+      <button id="cat5" class="btn cat">Category</button>
 
-        <button id="b1-100" class="btn btn-100 btn-outline-primary">$100</button>
-        <button id="b2-100" class="btn btn-100 btn-outline-primary">$100</button>
-        <button id="b3-100" class="btn btn-100 btn-outline-primary">$100</button>
-        <button id="b4-100" class="btn btn-100 btn-outline-primary">$100</button>
-        <button id="b5-100" class="btn btn-100 btn-outline-primary">$100</button>
-        <button id="b1-200" class="btn btn-200 btn-outline-primary">$200</button>
-        <button id="b2-200" class="btn btn-200 btn-outline-primary">$200</button>
-        <button id="b3-200" class="btn btn-200 btn-outline-primary">$200</button>
-        <button id="b4-200" class="btn btn-200 btn-outline-primary">$200</button>
-        <button id="b5-200" class="btn btn-200 btn-outline-primary">$200</button>
-        <button id="b1-400" class="btn btn-400 btn-outline-primary">$400</button>
-        <button id="b2-400" class="btn btn-400 btn-outline-primary">$400</button>
-        <button id="b3-400" class="btn btn-400 btn-outline-primary">$400</button>
-        <button id="b4-400" class="btn btn-400 btn-outline-primary">$400</button>
-        <button id="b5-400" class="btn btn-400 btn-outline-primary">$400</button>
-        <button id="b1-600" class="btn btn-600 btn-outline-primary">$600</button>
-        <button id="b2-600" class="btn btn-600 btn-outline-primary">$600</button>
-        <button id="b3-600" class="btn btn-600 btn-outline-primary">$600</button>
-        <button id="b4-600" class="btn btn-600 btn-outline-primary">$600</button>
-        <button id="b5-600" class="btn btn-600 btn-outline-primary">$600</button>
-        <button id="b1-800" class="btn btn-800 btn-outline-primary">$800</button>
-        <button id="b2-800" class="btn btn-800 btn-outline-primary">$800</button>
-        <button id="b3-800" class="btn btn-800 btn-outline-primary">$800</button>
-        <button id="b4-800" class="btn btn-800 btn-outline-primary">$800</button>
-        <button id="b5-800" class="btn btn-800 btn-outline-primary">$800</button>
+      <button id="b1-100" class="btn btn-100">$100</button>
+      <button id="b2-100" class="btn btn-100">$100</button>
+      <button id="b3-100" class="btn btn-100">$100</button>
+      <button id="b4-100" class="btn btn-100">$100</button>
+      <button id="b5-100" class="btn btn-100">$100</button>
+
+      <button id="b1-200" class="btn btn-200">$200</button>
+      <button id="b2-200" class="btn btn-200">$200</button>
+      <button id="b3-200" class="btn btn-200">$200</button>
+      <button id="b4-200" class="btn btn-200">$200</button>
+      <button id="b5-200" class="btn btn-200">$200</button>
+
+      <button id="b1-400" class="btn btn-400">$400</button>
+      <button id="b2-400" class="btn btn-400">$400</button>
+      <button id="b3-400" class="btn btn-400">$400</button>
+      <button id="b4-400" class="btn btn-400">$400</button>
+      <button id="b5-400" class="btn btn-400">$400</button>
+
+      <button id="b1-600" class="btn btn-600">$600</button>
+      <button id="b2-600" class="btn btn-600">$600</button>
+      <button id="b3-600" class="btn btn-600">$600</button>
+      <button id="b4-600" class="btn btn-600">$600</button>
+      <button id="b5-600" class="btn btn-600">$600</button>
+
+      <button id="b1-800" class="btn btn-800">$800</button>
+      <button id="b2-800" class="btn btn-800">$800</button>
+      <button id="b3-800" class="btn btn-800">$800</button>
+      <button id="b4-800" class="btn btn-800">$800</button>
+      <button id="b5-800" class="btn btn-800">$800</button>
     </div>
 
-    <div id="display-area">Your questions will appear here once you choose a $ value.</div>
+    <div id="display-area">
+      Your questions will appear here once you choose a $ value.
+    </div>
 
     <div id="input-div">
-        <input id="input-box"  type="text" placeholder="type your answer here">
-        
-        <button id="submit-button" type="button" class="btn btn-warning">SUBMIT</button>
+      <input id="input-box" type="text" placeholder="type your answer here" />
+
+      <button id="submit-button" type="button" class="btn btn-warning">
+        SUBMIT
+      </button>
     </div>
-    
+
     <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+
     <script src="main.js"></script>
-</body>
+  </body>
 </html>
+
+
